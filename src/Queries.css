@@ -1,0 +1,87 @@
+/**************************/
+/* BELOW 1920px (1920/16) */
+/**************************/
+
+@media (max-width: 120em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 1600px (1600/16) */
+/**************************/
+
+@media (max-width: 100em) {
+  .weather-day-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .weather-day-sub-title {
+    font-size: 1.4rem;
+  }
+
+  .weather-day-info {
+    font-size: 1.2rem;
+  }
+
+  .weather-day {
+    min-width: 20rem;
+  }
+}
+
+/**************************/
+/* BELOW 760px (760/16)   */
+/**************************/
+
+@media (max-width: 50em) {
+  h1 {
+    font-size: 5.2rem;
+  }
+
+  .app {
+    padding: 1.2rem 8.4rem;
+  }
+}
+
+/**************************/
+/* BELOW 500px (500/16)   */
+/**************************/
+
+@media (max-width: 30em) {
+  html {
+    font-size: 40%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .weather-day {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .weather-days-list {
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .weather-days {
+    max-height: 100%;
+  }
+
+  .weather-day-img {
+    width: 50%;
+  }
+
+  .weather-day-data {
+    margin-bottom: 0;
+  }
+
+  .weather-day-main-container {
+    justify-content: center;
+  }
+}

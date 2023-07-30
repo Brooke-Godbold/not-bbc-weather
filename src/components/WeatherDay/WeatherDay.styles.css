@@ -1,0 +1,44 @@
+.weather-day {
+  background-color: #d0ebff;
+  padding: 3.2rem;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-day:hover,
+.weather-day:active {
+  background-color: #a5d8ff;
+}
+
+.weather-day-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-day-time {
+  margin-bottom: 3.2rem;
+  font-size: 1.8rem;
+}
+
+.weather-day-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.weather-day-sub-title {
+  font-size: 1.8rem;
+}
+
+.weather-day-description {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.weather-day-info {
+  font-size: 1.6rem;
+  font-weight: 400;
+}

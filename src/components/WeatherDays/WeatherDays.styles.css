@@ -1,0 +1,17 @@
+.weather-days-list-container {
+  overflow-x: hidden;
+}
+
+.weather-days-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.2rem;
+}
+
+.weather-date {
+  text-align: center;
+}
+
+.weather-days {
+  max-width: 100%;
+}
