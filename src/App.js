@@ -1,7 +1,6 @@
 import { useEffect, useReducer } from "react";
 import "./App.css";
 
-import WeatherResponse from "./weatherResponse.json";
 import WeatherDays from "./components/WeatherDays/WeatherDays.component";
 import WeatherButtons from "./components/WeatherButtons/WeatherButtons.component";
 import WeatherSearch from "./components/WeatherSearch/WeatherSearch.component";
