@@ -9,7 +9,7 @@ import Loading from "./components/Notification/Loading.component";
 
 import "./Queries.css";
 
-const API_KEY = "9d4c05fa102279ba312f2ae60286022c";
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const initialState = {
   daysInFuture: 0,
@@ -85,10 +85,9 @@ function App() {
 
         try {
           const res = await fetch(
-            `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${API_KEY}`
+            `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${apiKey}`
           );
           const data = await res.json();
-          console.log(data);
 
           if (data.cod !== "200") {
             dispatch({ type: "apiError" });
